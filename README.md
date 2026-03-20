@@ -169,9 +169,13 @@ Build Optimization Explanation
 Several optimizations were implemented while building Docker images.
 
 • Multi-stage builds reduce final image size.
+
 • Slim base images reduce unnecessary dependencies.
+
 • .dockerignore prevents unnecessary files from being copied into the container.
+
 • Non-root user execution improves container security.
+
 • Docker volumes ensure persistent database storage.
 
 These optimizations improve performance, portability, and security of the containerized application.
@@ -191,10 +195,15 @@ This project successfully demonstrates containerized application deployment usin
 Key components implemented include:
 
 • FastAPI backend container
+
 • PostgreSQL database container
+
 • Docker Compose orchestration
+
 • IPvlan networking with static IP assignment
+
 • Persistent storage using Docker volumes
+
 • Optimized Docker image builds
 
 The system ensures scalability, portability, and reliability in a containerized environment.
