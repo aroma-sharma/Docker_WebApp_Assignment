@@ -178,18 +178,12 @@ These optimizations improve performance, portability, and security of the contai
 
 Image Size Comparison
 
-Image	Approx Size
-python:3.11	~1GB
-python:3.11-slim	~150MB
-Using slim images significantly reduces image size and improves container startup time.
+<img width="264" height="113" alt="image" src="https://github.com/user-attachments/assets/d2b26f7a-ce1d-4171-a0be-c9a8cb7a7589" />
 
 Macvlan vs IPvlan Comparison
 
-Feature	Macvlan	IPvlan
-MAC Address	Each container gets unique MAC	Containers share host MAC
-Network Load	Higher load on switches	Lower load
-Scalability	Limited	Highly scalable
-Use Case	Small LAN environments	Cloud / virtual environments
+<img width="761" height="237" alt="image" src="https://github.com/user-attachments/assets/845ee9fe-1420-43f8-8e2a-cc30ed22156b" />
+
 Conclusion
 
 This project successfully demonstrates containerized application deployment using Docker.
